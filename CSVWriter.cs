@@ -25,7 +25,7 @@ public class CSVWriter : MonoBehaviour
             TextWriter tw = new StreamWriter(filename, false);
             tw.WriteLine("User data, Name, Email, Phno, EntryTime, ExitTime");
             tw.Close();
-        }/
+        }*/
     }
 
     // Update is called once per frame
