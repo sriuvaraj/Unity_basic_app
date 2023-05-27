@@ -19,13 +19,13 @@ public class CSVWriter : MonoBehaviour
     {
         filename = Application.persistentDataPath + "test.csv";
         //filename = Application.dataPath + "/test.csv";
-        if (!File.Exists(filename))
+        /*if (!File.Exists(filename))
         {   
             File.Create(filename);
             TextWriter tw = new StreamWriter(filename, false);
             tw.WriteLine("User data, Name, Email, Phno, EntryTime, ExitTime");
             tw.Close();
-        }
+        }/
     }
 
     // Update is called once per frame
